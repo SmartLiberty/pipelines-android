@@ -15,7 +15,7 @@ steps:
     publishJUnitResults: false
     testResultsFiles: '**/TEST-*.xml'
     tasks: 'assembleDebug'
-    
+
 - task: Bash@3
   displayName: "Build and sign App Bundle"
   inputs:
